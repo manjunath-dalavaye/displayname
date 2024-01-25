@@ -47,7 +47,7 @@ function App() {
             value={firstName}
             onChange={(e) => setFirstName(e.target.value)}
             required
-            pattern=".*\S.*"
+            pattern=".*"
           />
         </label>
         <br />
